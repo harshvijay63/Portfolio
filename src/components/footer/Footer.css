@@ -57,8 +57,7 @@
     font-size: var(--smaller-font-size);
 }
 
-/*============== BREAKPOINTS ====================*/
-/*Large devices*/
+
 @media screen and   (max-width: 992px) {
     .footer__social-link {
         padding: 0.25rem;

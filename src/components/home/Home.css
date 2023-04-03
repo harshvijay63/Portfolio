@@ -32,9 +32,9 @@
   width: 38px;
   height: 38px;
   margin-left: 0.4rem;
-  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.5s;        /* Change to speed up or slow down */
-  animation-iteration-count: infinite;  /* Never stop waving :) */
+  animation-name: wave-animation;  
+  animation-duration: 2.5s;       
+  animation-iteration-count: infinite;  
   transform-origin: 70% 70%;       
   display: inline-block;
 }
@@ -42,12 +42,12 @@
 
 @keyframes wave-animation {
   0% { transform: rotate( 0.0deg) }
- 10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+ 10% { transform: rotate(14.0deg) } 
  20% { transform: rotate(-8.0deg) }
  30% { transform: rotate(14.0deg) }
  40% { transform: rotate(-4.0deg) }
  50% { transform: rotate(10.0deg) }
- 60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+ 60% { transform: rotate( 0.0deg) }  
 100% { transform: rotate( 0.0deg) }
 }
 
@@ -132,8 +132,7 @@
 }
 
 
-/*=============== BREAKPOINTS ===============*/
-/* For large devices */
+
 @media screen and (max-width: 992px) {
    .home__content{
     grid-template-columns: 100px repeat(2,1fr);
@@ -170,7 +169,7 @@
    .home__img{
     width: 250px;
     height: 250px;
-    box-shadow: inset 0 0 0 8px rgb(255 255 255 / 30%);
+    box-shadow: inset 0 0 0 8px rgb(255 255 255/30%);
    }
 
    .home__scroll{
@@ -179,7 +178,7 @@
    }
   }
   
-  /* For medium devices */
+  
   @media screen and (max-width: 768px) {
     .home__content{
         grid-template-columns:0.5fr 3fr;
@@ -210,7 +209,7 @@
   
   
   
-  /* For small devices */
+
   @media screen and (max-width: 350px) {
    .home__img{
     width: 180px;

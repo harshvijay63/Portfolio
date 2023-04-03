@@ -107,14 +107,13 @@
     resize: none;
 }
 
-/*============== BREAKPOINTS ====================*/
-/*Large devices*/
+
 @media screen and   (max-width: 992px) {
     .contact__container {
         column-gap: 3rem;
     }
 }
-/*Medium devices*/
+
 @media screen and (max-width: 768px) {
     .contact__container {
         grid-template-columns: 1fr;
@@ -140,7 +139,7 @@
     }
 }
 
-/*Small devices*/
+
 @media screen and (max-width: 350px) {
 
 }

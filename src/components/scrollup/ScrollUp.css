@@ -19,13 +19,11 @@
     background-color: var(--title-color-dark);
 }
 
-/* Show Scroll */
+
 .show-scroll {
     bottom: 3rem;
 }
 
-/*============== BREAKPOINTS ====================*/
-/*Large devices*/
 @media screen and   (max-width: 992px) {
     .scrollup {
         right: 1.5rem;
@@ -36,14 +34,13 @@
         font-size: 1.25rem;
     }
 }
-/*Medium devices*/
+
 @media screen and (max-width: 768px) {
     .show-scroll {
         bottom: 4rem;
     }
 }
 
-/*Small devices*/
 @media screen and (max-width: 350px) {
     .show-scroll {
         bottom: 1rem;
