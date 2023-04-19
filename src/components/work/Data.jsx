@@ -14,30 +14,50 @@ export const projectsData = [
     image: Work1,
     title: "Web design",
     category: "web",
+    Description: " College portal",
+    host:"Github",
+
+    link : "#",
   },
   {
     id: 2,
     image: Work2,
     title: "App movil",
     category: "app",
+    Description: " College portal",
+    host:"Github",
+
+    link : "#",
   },
   {
     id: 3,
     image: Work3,
     title: "Java",
     category: "Java",
+    Description: " College portal",
+    host:"Github",
+
+    link : "#",
   },
   {
     id: 4,
     image: Work4,
     title: "App movil",
     category: "app",
+    Description: " College portal",
+    host:"Github",
+
+    link : "#",
   },
   {
     id: 5,
     image: Work5,
     title: "Web design",
     category: "web",
+    Description: " College portal",
+    host:"Github",
+
+    link : "#",
   },
 ];
 
